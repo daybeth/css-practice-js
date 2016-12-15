@@ -1,0 +1,91 @@
+* {
+	padding: 0;
+	margin: 0 auto;
+	}
+#main-container{
+	background-color: #1B335D;
+	width: 970px;
+	padding: 10px;
+}
+h1{
+	color: #C2D6EA;
+	padding: 10px 20px;
+}
+#header{
+	background-color: #CF3036;
+	height: 60px;
+	display: block;
+	border-radius: 5px;
+	margin-bottom: 15px;
+}
+#side-bar{
+	background-color: #2A7D8C;
+	height: 170px;
+	width: 140px;
+	font-size: 12px;
+	padding-top:  15px;
+	padding-left: 10px;
+	display: inline-block;
+	border-radius: 10px;
+	vertical-align: top;
+	margin-right: 20px;
+
+}
+#side-bar p a{
+	color: #58C8CE;
+}
+#main-lectures-link {
+	list-style: none;
+}
+#second-lecture-link{
+	margin-left: 15px;
+	list-style: none;
+}
+#side-bar ul li{
+	color: #58C8CE;
+
+}
+#side-bar ul li a{
+	color: #58C8CE;
+}
+#main-lectures-link li:before {
+    content: "• ";
+    color: white; /* or whatever color you prefer */
+}
+#second-lectures-link li:before {
+    content: "• ";
+    color: white; /* or whatever color you prefer */
+}
+#content{
+	background-color: #0E1822;
+	color: white;
+	width: 760px;
+	height: 370px;
+	font-size: 13px;
+	text-align:left;
+	padding: 15px;
+	border-radius: 10px;
+	display: inline-block;
+}
+#content ul{
+	margin-left: 15px;
+}
+#content ul li a{
+	color: #58C8CE;
+}
+span{
+	color: #7F8CF6;
+}
+#footer{
+	background-color: #5D6673;
+	height: 30px;
+	border-radius: 10px;
+	color: white;
+	font-size: 13px;
+	margin-top: 15px;
+	padding-left: 20px;
+	padding-top: 10px;
+}
+#footer a{
+	color: #58C8CE;
+}
